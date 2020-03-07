@@ -10,8 +10,8 @@ ToDoアプリRTA用
 * anyenv > rbenv環境構築済
 * direnv環境構築済
 * gitのuser.name, user.emailが設定済
-* 検証端末はiPhone XS Plus
-* README.md以外のファイルがディレクトリ内に存在しないこと
+* README.md, .gitignore以外のファイルがディレクトリ内に存在しないこと
+* gcloud, firebaseコマンド, aws-cli等のログインが完了していても良い(プロジェクトやインスタンスが計測前に作成されているのはNG)
 
 ## コーディングにおける成約
 * pub.devに公開されているライブラリは自由に使うことができる
@@ -19,7 +19,7 @@ ToDoアプリRTA用
 * 永続化の手段について問わない
 
 ## Definition of Done (完了の定義)
-* AndoridシミュレータでE2Eテストケースが通過すること
+* AndoridシミュレータのPixel 3でE2Eテストシナリオを満たしていること
 * ソースコードがgithubにpushされていること
 * 上記を満たした時点でタイマーストップ
 
